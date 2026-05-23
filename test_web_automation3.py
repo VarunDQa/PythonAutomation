@@ -2,7 +2,7 @@ from playwright.sync_api import Playwright, sync_playwright
 
 
 def test_web_automation(playwright: Playwright):
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless= True)
     context = browser.new_context()
     page = context.new_page()
     page.goto("https://rahulshettyacademy.com/loginpagePractise/")
