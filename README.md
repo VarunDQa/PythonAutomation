@@ -9,7 +9,6 @@ as part of hands-on QA automation learning and practice.
 - Python 3.x
 - Playwright (Python)
 - Pytest
-- Selenium (early scripts)
 
 ---
 
